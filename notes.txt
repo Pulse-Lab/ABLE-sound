@@ -1,0 +1,25 @@
+// Music interactions:
+/*
+- copx - percussive synth with note from generative scale pings when copx threshold hit on either side
+- synth holds at lowish level until threshold is passed again when release is triggered
+
+- displacement:
+- threshold triggers a sound which plays as long as displacement is above some threshold
+- maybe as it gets closer back down to threshold, something about the synth changes?
+
+- heading:
+- this seems more like a value that will be used to indicate motions, rather than something that will be mapped raw?
+- global frequency - open footed plays higher freq, opens up a filter etc..?
+
+
+Generataive ideas:
+- pick some melody (sequence of a few notes from scale) for one motion. Or maybe a few consonant melodies that can be iterated through (a phrase or a few phrases?)
+- copx, displacement, etc... are responsible for deviating enough (but not too much) from that melody to make it interesting/not too repetitive
+- deviation based on how long they've been doing that motion for - or how many notes triggered perhaps:
+- motion change picks a new melody
+- if
+
+- Different but consonant/coordinated melodies for each sensor? Polyphonic melodies?
+- Or is it better to have just one - perhaps more intuitive/less overwhelming
+
+*/
